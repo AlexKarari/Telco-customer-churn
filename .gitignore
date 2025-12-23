@@ -1,0 +1,141 @@
+# ===== PYTHON =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ===== VIRTUAL ENVIRONMENTS =====
+venv/
+virtual/
+env/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+
+# ===== JUPYTER NOTEBOOK =====
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
+
+# ===== DATA FILES (too large for GitHub) =====
+# Raw datasets - too large for GitHub (users should download from source)
+*.csv
+*.xlsx
+*.xls
+*.tsv
+*.json
+*.parquet
+*.h5
+*.hdf5
+*.db
+*.sqlite
+*.sql
+
+# Data directories
+data/
+datasets/
+raw_data/
+processed_data/
+
+# Deep learning models (usually large, should ignore)
+*.h5
+*.hdf5
+*.pb
+*.pth
+*.ckpt
+*.weights
+saved_models/
+checkpoints/
+
+# EXCEPTION: Keep small demo models (uncomment if needed)
+# !models/demo_model.pkl
+
+# ===== VISUALIZATION OUTPUTS =====
+visualizations/*.png
+visualizations/*.jpg
+*.png
+*.jpg
+
+# ===== IDE / EDITOR =====
+# VSCode
+.vscode/
+*.code-workspace
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ===== OPERATING SYSTEM =====
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ===== LOGS AND TEMPORARY FILES =====
+*.log
+logs/
+*.tmp
+temp/
+tmp/
+*.bak
+*.swp
+
+# ===== ENVIRONMENT VARIABLES =====
+.env
+.env.local
+.env.*.local
+*.env
+
+# ===== JUPYTER NOTEBOOK OUTPUTS =====
+*.ipynb
+
+# ===== CREDENTIALS AND SECRETS =====
+# API keys, credentials, tokens
+*.key
+*.pem
+credentials.json
+config.json
+secrets.yml
+*.secret
+
+# Kaggle API token
+.kaggle/kaggle.json
+
+# AWS credentials
+.aws/
+
+# ===== TESTING =====
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+coverage.xml
+*.cover
+
+# ===== DOCUMENTATION BUILD =====
+docs/_build/
+site/
+
+# ===== PACKAGE MANAGER =====
+Pipfile.lock
+poetry.lock
