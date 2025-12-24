@@ -107,7 +107,8 @@ tmp/
 *.env
 
 # ===== JUPYTER NOTEBOOK OUTPUTS =====
-*.ipynb
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
 
 # ===== CREDENTIALS AND SECRETS =====
 # API keys, credentials, tokens
